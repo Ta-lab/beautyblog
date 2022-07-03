@@ -23,6 +23,7 @@ Route::get('/', function () {
 });
 */
 Route::resource('blogs', BlogController::class);
+Route::resource('blogs', BlogController::class);
 
 Route::resource('manage', MBlogController::class);
 
